@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "a9fecd4ff602afaeb76a25930759bbfa46d8b8a92b8362b78c55e133539bd162",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.airtop.ai/openapi.json"
+  ],
+  "id": "airtop-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Airtop MCP setup and connection checker",
+  "description": "Generate Airtop MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "airtop",
+  "appName": "Airtop",
+  "providerDocs": "https://docs.airtop.ai/openapi.json",
+  "providerWebsite": "https://www.airtop.ai/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.airtop.ai/guides/getting-started/quick-start",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-airtop-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}

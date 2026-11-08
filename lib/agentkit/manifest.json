@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-airtop",
+      "description": "Connect AI agents to Airtop using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-airtop/SKILL.md": "045a72a7a37ede957eed9d37535f03d4a57c3f8d0e3ea20b2eb9905bba55bb74"
+  }
+}
